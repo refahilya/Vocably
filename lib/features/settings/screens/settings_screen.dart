@@ -15,46 +15,46 @@ class SettingsScreen extends StatelessWidget {
         children: [
           // App info card
           Container(
-            padding: const EdgeInsets.all(20),
-            decoration: BoxDecoration(
-              gradient: AppTheme.primaryGradient,
-              borderRadius: AppTheme.cardRadius,
-            ),
-            child: Column(
-              children: [
-                const Icon(Icons.school, size: 48, color: Colors.white),
-                const Gap(12),
-                const Text(
-                  "Vocably3",
-                  style: TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.w800,
-                    color: Colors.white,
-                  ),
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  gradient: AppTheme.primaryGradient,
+                  borderRadius: AppTheme.cardRadius,
                 ),
-                const Gap(4),
-                Text(
-                  "Media Pembelajaran Kosakata Bahasa Inggris",
-                  style: TextStyle(
-                    fontSize: 13,
-                    color: Colors.white.withValues(alpha: 0.8),
-                  ),
-                  textAlign: TextAlign.center,
+                child: Column(
+                  children: [
+                    const Icon(Icons.school, size: 48, color: Colors.white),
+                    const Gap(12),
+                    const Text(
+                      "Vocably3",
+                      style: TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.w800,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const Gap(4),
+                    Text(
+                      "Media Pembelajaran Kosakata Bahasa Inggris",
+                      style: TextStyle(
+                        fontSize: 13,
+                        color: Colors.white.withValues(alpha: 0.8),
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                    const Gap(4),
+                    Text(
+                      "v1.0.0",
+                      style: TextStyle(
+                        fontSize: 11,
+                        color: Colors.white.withValues(alpha: 0.6),
+                      ),
+                    ),
+                  ],
                 ),
-                const Gap(4),
-                Text(
-                  "v1.0.0",
-                  style: TextStyle(
-                    fontSize: 11,
-                    color: Colors.white.withValues(alpha: 0.6),
-                  ),
-                ),
-              ],
-            ),
-          ).animate().fadeIn(duration: 400.ms).scale(
-                begin: const Offset(0.95, 0.95),
-                end: const Offset(1, 1),
-              ),
+              )
+              .animate()
+              .fadeIn(duration: 400.ms)
+              .scale(begin: const Offset(0.95, 0.95), end: const Offset(1, 1)),
           const Gap(20),
 
           // Settings items
@@ -81,9 +81,9 @@ class SettingsScreen extends StatelessWidget {
       context: context,
       builder: (context) => AlertDialog(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-        title: const Text("Tentang Vocably3"),
+        title: const Text("Tentang Vocably"),
         content: const Text(
-          "Vocably3 adalah media pembelajaran kosakata Bahasa Inggris "
+          "Vocably adalah media pembelajaran kosakata Bahasa Inggris "
           "untuk siswa dengan bahasa native Indonesia.\n\n"
           "Menggunakan teknologi AI untuk menghasilkan cerita interaktif "
           "dan latihan berbasis konteks.\n\n"

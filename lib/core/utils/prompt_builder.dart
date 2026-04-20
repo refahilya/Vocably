@@ -52,11 +52,9 @@ INDONESIAN:
       ],
     };
 
-    if (model.startsWith("gpt-5")) {
-      request["temperature"] = 1;
-      request["max_completion_tokens"] = 1200;
-    } else {
-      request["temperature"] = 1;
+    // Hanya tambahkan parameter untuk model non-gpt-5
+    if (!model.startsWith("gpt-5")) {
+      request["temperature"] = 1.0;
       request["max_tokens"] = 800;
     }
 
@@ -97,10 +95,8 @@ Respond with ONLY the sentence, nothing else.""";
       ],
     };
 
-    if (model.startsWith("gpt-5")) {
-      request["temperature"] = 1;
-      request["max_completion_tokens"] = 120;
-    } else {
+    // Hanya tambahkan parameter untuk model non-gpt-5
+    if (!model.startsWith("gpt-5")) {
       request["temperature"] = 0.8;
       request["max_tokens"] = 100;
     }
@@ -143,11 +139,9 @@ FEEDBACK: [1 short sentence in Indonesian about the quality]""";
       ],
     };
 
-    if (model.startsWith("gpt-5")) {
-      request["temperature"] = 1;
-      request["max_completion_tokens"] = 200;
-    } else {
-      request["temperature"] = 1;
+    // Hanya tambahkan parameter untuk model non-gpt-5
+    if (!model.startsWith("gpt-5")) {
+      request["temperature"] = 1.0;
       request["max_tokens"] = 200;
     }
 
@@ -185,11 +179,9 @@ Respond with ONLY the sentence.""";
       ],
     };
 
-    if (model.startsWith("gpt-5")) {
-      request["temperature"] = 1;
-      request["max_completion_tokens"] = 80;
-    } else {
-      request["temperature"] = 1;
+    // Hanya tambahkan parameter untuk model non-gpt-5
+    if (!model.startsWith("gpt-5")) {
+      request["temperature"] = 1.0;
       request["max_tokens"] = 60;
     }
 
