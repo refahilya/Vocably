@@ -1,0 +1,142 @@
+[
+  {
+    "id": "w1",
+    "english": "diligent",
+    "indonesian": "rajin",
+    "partOfSpeech": "adjective",
+    "topic": "Kepribadian"
+  },
+  {
+    "id": "w2",
+    "english": "generous",
+    "indonesian": "murah hati",
+    "partOfSpeech": "adjective",
+    "topic": "Kepribadian"
+  },
+  {
+    "id": "w3",
+    "english": "curious",
+    "indonesian": "penasaran",
+    "partOfSpeech": "adjective",
+    "topic": "Kepribadian"
+  },
+  {
+    "id": "w4",
+    "english": "honest",
+    "indonesian": "jujur",
+    "partOfSpeech": "adjective",
+    "topic": "Kepribadian"
+  },
+  {
+    "id": "w5",
+    "english": "brave",
+    "indonesian": "berani",
+    "partOfSpeech": "adjective",
+    "topic": "Kepribadian"
+  },
+  {
+    "id": "w6",
+    "english": "breakfast",
+    "indonesian": "sarapan",
+    "partOfSpeech": "noun",
+    "topic": "Aktivitas Harian"
+  },
+  {
+    "id": "w7",
+    "english": "schedule",
+    "indonesian": "jadwal",
+    "partOfSpeech": "noun",
+    "topic": "Aktivitas Harian"
+  },
+  {
+    "id": "w8",
+    "english": "exercise",
+    "indonesian": "olahraga",
+    "partOfSpeech": "noun",
+    "topic": "Aktivitas Harian"
+  },
+  {
+    "id": "w9",
+    "english": "commute",
+    "indonesian": "perjalanan ke kantor/sekolah",
+    "partOfSpeech": "verb",
+    "topic": "Aktivitas Harian"
+  },
+  {
+    "id": "w10",
+    "english": "routine",
+    "indonesian": "rutinitas",
+    "partOfSpeech": "noun",
+    "topic": "Aktivitas Harian"
+  },
+  {
+    "id": "w11",
+    "english": "delicious",
+    "indonesian": "lezat",
+    "partOfSpeech": "adjective",
+    "topic": "Makanan"
+  },
+  {
+    "id": "w12",
+    "english": "ingredient",
+    "indonesian": "bahan",
+    "partOfSpeech": "noun",
+    "topic": "Makanan"
+  },
+  {
+    "id": "w13",
+    "english": "recipe",
+    "indonesian": "resep",
+    "partOfSpeech": "noun",
+    "topic": "Makanan"
+  },
+  {
+    "id": "w14",
+    "english": "appetite",
+    "indonesian": "selera makan",
+    "partOfSpeech": "noun",
+    "topic": "Makanan"
+  },
+  {
+    "id": "w15",
+    "english": "flavor",
+    "indonesian": "rasa",
+    "partOfSpeech": "noun",
+    "topic": "Makanan"
+  },
+  {
+    "id": "w16",
+    "english": "destination",
+    "indonesian": "tujuan",
+    "partOfSpeech": "noun",
+    "topic": "Perjalanan"
+  },
+  {
+    "id": "w17",
+    "english": "luggage",
+    "indonesian": "bagasi",
+    "partOfSpeech": "noun",
+    "topic": "Perjalanan"
+  },
+  {
+    "id": "w18",
+    "english": "adventure",
+    "indonesian": "petualangan",
+    "partOfSpeech": "noun",
+    "topic": "Perjalanan"
+  },
+  {
+    "id": "w19",
+    "english": "explore",
+    "indonesian": "menjelajahi",
+    "partOfSpeech": "verb",
+    "topic": "Perjalanan"
+  },
+  {
+    "id": "w20",
+    "english": "souvenir",
+    "indonesian": "oleh-oleh",
+    "partOfSpeech": "noun",
+    "topic": "Perjalanan"
+  }
+]
