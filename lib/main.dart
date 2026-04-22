@@ -10,7 +10,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // Load environment variables
-  await dotenv.load(fileName: "assets/env/.env");
+  await dotenv.load(fileName: ".env");
+  print("API KEY: ${dotenv.env['OPENAI_API_KEY']}");
 
   // Init Hive local database
   await Hive.initFlutter();
